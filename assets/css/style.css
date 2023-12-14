@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background: #d3d1d1;
+    padding: 10px 100px;
+}
+.hero_section{
+    background-image: url(https://i.ibb.co/n1b9fpV/header-Image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d3d1d1;
+}
+button{
+    padding: 8px;
+    border-radius:10px;
+}
+.features{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    padding: 0 150px;
+    margin: 100px 0;
+}
+.features img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 10px;
+    background: #cca00f;
+}
+.latest_work{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    padding: 0 140px;
+    margin: 10px 0 100px 0;
+}
+.latest_work_heading{
+    padding: 20px 140px 0 140px;
+}
+.quotation{
+    padding: 60px 240px;
+    background: #868080;
+}
+.quotation img{
+   width: 50px;
+   height: 45px;
+}
+.footer_section{
+    background: #202020;
+    padding: 100px 140px 30px 140px;
+    color: #d3d1d1
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    background: #202020;
+    
+}
+.footer li{
+  list-style: none;  
+}
+.footer img{
+  padding-right: 5px; 
+}
+
+@media (max-width:575px) {
+    .navbar{
+        background: #d3d1d1;
+        padding: 10px 10px;
+    }
+    .hero_section{
+        background-image: url(https://i.ibb.co/n1b9fpV/header-Image.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #d3d1d1;
+    }
+    button{
+        padding: 8px;
+        border-radius:10px;
+    }
+    .features{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5px;
+        padding: 0 10px;
+        margin: 0 0;
+    }
+    
+    .features img{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        padding: 10px;
+        background: #cca00f;
+    }
+    .latest_work{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 5px;
+        margin: 5px;
+    }
+    .latest_work_heading{
+        padding: 15px 5px 5px 25px;
+    }
+    .quotation{
+        padding: 25px 5px;
+        background: #868080;
+    }
+    .quotation img{
+       width: 50px;
+       height: 45px;
+    }
+    .footer_section{
+        background: #202020;
+        padding: 15px;
+        color: #d3d1d1
+    }
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        background: #202020;
+        
+    }
+}
